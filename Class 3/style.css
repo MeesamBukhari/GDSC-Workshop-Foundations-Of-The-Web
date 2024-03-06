@@ -10,3 +10,9 @@ td {
   padding: 10px;
   font-family: "Courier New", Courier, monospace;
 }
+
+code {
+  font-size: 120%;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
