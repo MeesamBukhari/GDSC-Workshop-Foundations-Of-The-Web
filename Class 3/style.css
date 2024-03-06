@@ -1,0 +1,12 @@
+h1 {
+  font-size: 200%;
+}
+
+table,
+tr,
+th,
+td {
+  border: 2px solid #000;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
