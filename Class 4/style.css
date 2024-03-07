@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(64, 63, 58);
+    color: white;
+}
+
+h1{
+    font-size: 200%;
+}
+
+table,tr,th,td{
+    border: 2px solid white;
+    padding: 10px;
+    margin: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    /* border-radius: 15px; */
+}
+
+table{
+    border-radius: 15px;
+}
