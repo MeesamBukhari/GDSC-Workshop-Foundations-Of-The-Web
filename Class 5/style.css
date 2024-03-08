@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(64, 63, 58);
+    color: white;
+}
+
+h1{
+    font-size: 200%;
+    color: yellow;
+}
+
+table,tr,th,td{
+    border: 2px solid white;
+    padding: 10px;
+    margin: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    /* border-radius: 15px; */
+}
+
+table{
+    border-radius: 15px;
+}
+
+.green-heading{
+    color: green;
+}
+
+.red-color {
+    color: red;
+    background-color: chartreuse;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.round-edges{
+    border-radius: 20px;
+}
+
+.test-class {
+    color: darkcyan;
+}
+
+.div1{
+    border: 2px solid #eee;
+    margin: 10px;
+}
+
+.div2{
+    border: 2px solid red;
+    margin: 10px;
+}
+
+.container{
+    border: 3px solid green;
+}
+
+.square{
+    border: 2px solid rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;    
+}
+
+.circle{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.rectangle {
+    border: 2px solid rgb(255, 255, 255);
+    height: 30px;
+    width: 70px;
+}
+
+.new-container {
+    border: 2px solid white;
+    height: 400px;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

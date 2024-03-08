@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 5</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-config" content="favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <h1 class="green-heading">My Goals for the Year</h1>
+        <ul>
+            <li>Learning HTML</li>
+            <li>Planning a Vacation</li>
+        </ul>
+        <hr>
+    </header>
+
+    <main>
+        <h1 class="green-heading">I'm Ready to Learn HTML</h1>
+        <p class="green-heading">This is my first web page.</p>
+        <h3>HTML5</h3>
+        <img src="img/html5.png" alt="HTML5 Logo">
+        <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+        <h4 class="red-color">My Daily Schedule</h4>
+        <p>Let me tell you how:</p>
+        <ol>
+            <li>I learn more about web dev.</li>
+            <li>I plan out my schedule.</li>
+            <li>I use resources from MDN.</li>
+        </ol>
+
+        <table>
+            <caption>My Daily Schedule</caption>
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>Time</th>
+                    <th>Activity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Morning</th>
+                    <td>8 am-11 am</td>
+                    <td>Write Code</td>
+                </tr>
+                <tr>
+                    <th>Evening</th>
+                    <td rowspan="2">All Other Times</td>
+                    <td>Free time</td>
+                </tr>
+                <tr>
+                    <th>Night</th>
+                    <td>Night</td>
+                </tr>
+                <tfoot>
+                    <td colspan="3">And that's what I do every day, 5 days a week</td>
+                </tfoot>
+            </tbody>
+        </table>
+        <br><br><br><br><br>
+        <h2>Contact Us</h2>
+        <form>
+            <fieldset>
+                <legend>Personal Info</legend>
+                <p>
+                    <label for="fname" >First Name: </label>
+                    <input type="text" placeholder="Ali" class="round-edges">
+                </p>
+                <p>
+                    <label for="lname">Last Name: </label>
+                    <input type="text" placeholder="Ahmed">
+                </p>
+                <p>
+                    <label for="pwd">Password</label>
+                    <input type="password" placeholder="Your Secret Password">
+                </p>
+                <p>
+                    <label for="phnumber">Phone Number: </label>
+                    <input type="number" placeholder="03123456789">
+                </p>
+        </fieldset>
+        <fieldset>
+            <legend>What is your favorite food?</legend>
+            <p>
+                <input type="radio" name="favfood">
+                <label for="chicken">Chicken</label>
+            </p>
+            <p>
+                <input type="radio" name="favfood">
+                <label for="bbq">BBQ</label>
+            </p>
+            <p>
+                <input type="radio" name="favfood">
+                <label for="others">Others</label>
+            </p>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Do you have pets?</legend>
+            <p>
+                <input type="checkbox">
+                <label for="Dog">Dog</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="cat">Cat</label>
+            </p>
+            <p>
+                <input type="checkbox">
+                <label for="others">Other</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Send me a Note</legend>
+            <label for="msg">Your Message: </label>
+            <br>
+            <textarea name="message" id="message" cols="50" rows="7" placeholder="Type your message here..."></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </form>
+
+
+
+
+        <br><hr>
+        <hr><br><br><br><br><br><br><br><br><br>
+        <h1 class="red-color">This is <span class="test-class">H1</span></h1>
+<br><br><br><br><br>
+<div class="container">
+    <div class="div1">
+        <h1 class="red-color">This is 1st heading</h1>
+        <h1 class="green-heading">This is 2nd heading</h1>
+        <h1>This is 3rd heading</h1>
+    </div>
+    <div class="div2">
+        <h2>This 4th heading</h2>
+        <h2>This 5th heading</h2>
+        <h2>This 6th heading</h2>
+    </div>
+</div>
+<br><br><br>
+
+<div class="new-container">
+    <div class="square">1</div>
+    <div class="circle"></div>
+    <div class="rectangle"></div>
+</div>
+
+    </main>
+</body>
+</html>
