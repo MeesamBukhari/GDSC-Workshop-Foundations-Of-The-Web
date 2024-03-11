@@ -1,0 +1,112 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+nav {
+  background-color: teal;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 30px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.hero-span {
+  color: blue;
+}
+
+main h1 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+hr {
+  width: 400px;
+  margin-top: 100px;
+}
+
+.rockets {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.image-class img {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+}
+
+.image-class {
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form label {
+  font-size: 30px;
+  text-align: left;
+}
+
+form input,
+textarea {
+  width: 700px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+input {
+  height: 50px;
+}
+
+footer {
+  background-color: teal;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  margin-top: 50px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
