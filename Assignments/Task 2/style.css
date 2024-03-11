@@ -1,0 +1,36 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ededed;
+}
+
+.user h2 {
+  color: black;
+  font-size: 25px;
+}
+
+.user p {
+  color: black;
+  font-size: 15px;
+}
+
+.user img {
+  height: 130px;
+  width: 130px;
+  border: none;
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  height: 30%;
+  width: 40%;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
